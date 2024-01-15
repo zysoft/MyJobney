@@ -1,0 +1,1150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2327EFCD2B295BD5008D58C7 /* FiledDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFCC2B295BD5008D58C7 /* FiledDocument.swift */; };
+		2327EFD72B2A895E008D58C7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFD62B2A895E008D58C7 /* MainView.swift */; };
+		2327EFE12B2BD7D9008D58C7 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFE02B2BD7D9008D58C7 /* SidebarMenu.swift */; };
+		2327EFE62B2D04D3008D58C7 /* ApplicationListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFE52B2D04D3008D58C7 /* ApplicationListVM.swift */; };
+		2327EFE82B2D04E3008D58C7 /* ApplicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFE72B2D04E3008D58C7 /* ApplicationListView.swift */; };
+		2327EFEB2B2E9A9B008D58C7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFEA2B2E9A9B008D58C7 /* Formatters.swift */; };
+		2327EFED2B2E9CDE008D58C7 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFEC2B2E9CDE008D58C7 /* Date+Extensions.swift */; };
+		2327EFEF2B2FF8B0008D58C7 /* ApplicationListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327EFEE2B2FF8B0008D58C7 /* ApplicationListFilter.swift */; };
+		2342410B2B34A006003479CE /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342410A2B34A006003479CE /* Dependencies.swift */; };
+		234BD35F2B2829B600FE1F3B /* My_JobneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD35E2B2829B600FE1F3B /* My_JobneyApp.swift */; };
+		234BD3652B2829B700FE1F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234BD3642B2829B700FE1F3B /* Assets.xcassets */; };
+		234BD3692B2829B700FE1F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234BD3682B2829B700FE1F3B /* Preview Assets.xcassets */; };
+		234BD37D2B2829B700FE1F3B /* My_JobneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD37C2B2829B700FE1F3B /* My_JobneyUITests.swift */; };
+		234BD37F2B2829B700FE1F3B /* My_JobneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD37E2B2829B700FE1F3B /* My_JobneyUITestsLaunchTests.swift */; };
+		234BD38D2B2829DE00FE1F3B /* JobApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD38C2B2829DE00FE1F3B /* JobApplication.swift */; };
+		234BD38F2B2829EA00FE1F3B /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD38E2B2829E900FE1F3B /* Company.swift */; };
+		234BD3912B282A7100FE1F3B /* JobApplicationStatusRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD3902B282A7100FE1F3B /* JobApplicationStatusRecord.swift */; };
+		234BD3932B282B4900FE1F3B /* SalaryPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BD3922B282B4900FE1F3B /* SalaryPeriod.swift */; };
+		235705072B52470F00F3EE3D /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705062B52470F00F3EE3D /* EducationView.swift */; };
+		2357050A2B53071400F3EE3D /* EducationEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705092B53071400F3EE3D /* EducationEditView.swift */; };
+		2357050D2B53A62F00F3EE3D /* EducationEditViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357050C2B53A62F00F3EE3D /* EducationEditViewVM.swift */; };
+		2357050F2B53A7C200F3EE3D /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357050E2B53A7C200F3EE3D /* Selection.swift */; };
+		235705112B53A8DA00F3EE3D /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705102B53A8DA00F3EE3D /* ExperienceView.swift */; };
+		235705162B53AC7F00F3EE3D /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705152B53AC7F00F3EE3D /* Copyable.swift */; };
+		235705172B53B75600F3EE3D /* ExperienceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705142B53AA5500F3EE3D /* ExperienceEditView.swift */; };
+		235705182B53B75900F3EE3D /* ExperienceEditViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705132B53AA5500F3EE3D /* ExperienceEditViewVM.swift */; };
+		2357051A2B54A88A00F3EE3D /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235705192B54A88A00F3EE3D /* SkillsView.swift */; };
+		23711B702B40ACE200991E68 /* FormLabeledContentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B6F2B40ACE200991E68 /* FormLabeledContentStyle.swift */; };
+		23711B762B40D38E00991E68 /* BasicInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B752B40D38E00991E68 /* BasicInformationView.swift */; };
+		23711B7A2B40D43600991E68 /* BookkeepingInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B792B40D43600991E68 /* BookkeepingInformationView.swift */; };
+		23711B802B40DF3800991E68 /* AutoCompleterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B7F2B40DF3800991E68 /* AutoCompleterView.swift */; };
+		23711B8C2B40FFED00991E68 /* BasicInformationViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B8A2B40FFED00991E68 /* BasicInformationViewVM.swift */; };
+		23711B902B4142CC00991E68 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B8F2B4142CC00991E68 /* Resume.swift */; };
+		23711B962B41437000991E68 /* JobApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B952B41437000991E68 /* JobApplicationStatus.swift */; };
+		23711B982B4143CC00991E68 /* JobDocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B972B4143CC00991E68 /* JobDocumentType.swift */; };
+		23711B9C2B449DAB00991E68 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B9B2B449DAB00991E68 /* View+Extensions.swift */; };
+		23711B9E2B44A2EE00991E68 /* Platforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711B9D2B44A2EE00991E68 /* Platforms.swift */; };
+		23711BA22B44D22400991E68 /* AttachedDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BA12B44D22400991E68 /* AttachedDocumentsView.swift */; };
+		23711BA52B44E79100991E68 /* AttachedDocumentsViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BA42B44E79100991E68 /* AttachedDocumentsViewVM.swift */; };
+		23711BA72B44F2F800991E68 /* SalaryInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BA62B44F2F800991E68 /* SalaryInformationView.swift */; };
+		23711BAA2B44F82000991E68 /* BasicInformationViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BA92B44F82000991E68 /* BasicInformationViewVM.swift */; };
+		23711BB22B4511A300991E68 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 23711BB12B4511A300991E68 /* ViewInspector */; };
+		23711BB62B4511F700991E68 /* BasicInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BB52B4511F700991E68 /* BasicInformationView.swift */; };
+		23711BB92B45315B00991E68 /* TestBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BB82B45315B00991E68 /* TestBinding.swift */; };
+		23711BBB2B45354800991E68 /* TestableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BBA2B45354800991E68 /* TestableView.swift */; };
+		23711BC12B463AB500991E68 /* DocumentManagementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BC02B463AB500991E68 /* DocumentManagementService.swift */; };
+		23711BC52B47564C00991E68 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BC42B47564C00991E68 /* StorageService.swift */; };
+		23711BC82B476B3300991E68 /* FileDocumentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BC72B476B3300991E68 /* FileDocumentService.swift */; };
+		23711BCC2B49025E00991E68 /* ResumeFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BCB2B49025E00991E68 /* ResumeFormView.swift */; };
+		23711BCE2B49026A00991E68 /* ResumeFormViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BCD2B49026A00991E68 /* ResumeFormViewVM.swift */; };
+		23711BD02B49086200991E68 /* ResumeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BCF2B49086200991E68 /* ResumeListView.swift */; };
+		23711BD22B49086800991E68 /* ResumeListViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BD12B49086800991E68 /* ResumeListViewVM.swift */; };
+		23711BD42B490A3000991E68 /* ResumeArbitrarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BD32B490A3000991E68 /* ResumeArbitrarySection.swift */; };
+		23711BD62B490C1E00991E68 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BD52B490C1E00991E68 /* Skill.swift */; };
+		23711BD82B491FB800991E68 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23711BD72B491FB800991E68 /* Localized.swift */; };
+		2382B5F32B3BDED8001394B2 /* DefaultAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382B5F22B3BDED8001394B2 /* DefaultAlertManager.swift */; };
+		2382B5F92B3C9075001394B2 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 2382B5F82B3C9075001394B2 /* Factory */; };
+		2382B5FC2B3CB6BB001394B2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382B5FB2B3CB6BB001394B2 /* PreviewData.swift */; };
+		2382B6002B3E00B3001394B2 /* AlertDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382B5FF2B3E00B3001394B2 /* AlertDSL.swift */; };
+		239CDC3B2B3AAEEF00355547 /* ApplicationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CDC3A2B3AAEEF00355547 /* ApplicationListRowView.swift */; };
+		239CDC422B3B621500355547 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CDC412B3B621500355547 /* AlertManager.swift */; };
+		23A1ABF52B310E5E00A8BA41 /* JobType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1ABF42B310E5E00A8BA41 /* JobType.swift */; };
+		23A1ABF92B314EE500A8BA41 /* ExperienceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1ABF82B314EE500A8BA41 /* ExperienceRecord.swift */; };
+		23A1ABFD2B314EF300A8BA41 /* EducationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1ABFC2B314EF300A8BA41 /* EducationRecord.swift */; };
+		23A1ABFF2B314FC000A8BA41 /* DiplomaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1ABFE2B314FC000A8BA41 /* DiplomaType.swift */; };
+		23A1AC022B3150C100A8BA41 /* ApplicationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1AC012B3150C100A8BA41 /* ApplicationFormView.swift */; };
+		23A1AC062B3150D200A8BA41 /* ApplicationFormViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1AC052B3150D200A8BA41 /* ApplicationFormViewVM.swift */; };
+		23A1AC082B32ABF900A8BA41 /* JobStatusTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1AC072B32ABF800A8BA41 /* JobStatusTagView.swift */; };
+		23A1AC0A2B32ADAA00A8BA41 /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1AC092B32ADAA00A8BA41 /* GlobalColors.swift */; };
+		23B0E8D62B3F9C95002EC501 /* MyJobneyCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E8D52B3F9C95002EC501 /* MyJobneyCommands.swift */; };
+		23B0E8D82B3FAEF0002EC501 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E8D72B3FAEF0002EC501 /* TagView.swift */; };
+		23B0E8DA2B3FB989002EC501 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E8D92B3FB989002EC501 /* Collection+Extensions.swift */; };
+		23B0E8DD2B3FBF35002EC501 /* TextFieldClearButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E8DC2B3FBF35002EC501 /* TextFieldClearButtonModifier.swift */; };
+		23D5B9B62B340419003349B7 /* ExecutionEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5B9B52B340419003349B7 /* ExecutionEnvironment.swift */; };
+		23F88E4D2B350941002A51D1 /* SwiftDataStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F88E4C2B350941002A51D1 /* SwiftDataStorageService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234BD36F2B2829B700FE1F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234BD3532B2829B600FE1F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234BD35A2B2829B600FE1F3B;
+			remoteInfo = "My Jobney";
+		};
+		234BD3792B2829B700FE1F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234BD3532B2829B600FE1F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234BD35A2B2829B600FE1F3B;
+			remoteInfo = "My Jobney";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2327EFCC2B295BD5008D58C7 /* FiledDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiledDocument.swift; sourceTree = "<group>"; };
+		2327EFD62B2A895E008D58C7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2327EFE02B2BD7D9008D58C7 /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
+		2327EFE52B2D04D3008D58C7 /* ApplicationListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationListVM.swift; sourceTree = "<group>"; };
+		2327EFE72B2D04E3008D58C7 /* ApplicationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationListView.swift; sourceTree = "<group>"; };
+		2327EFEA2B2E9A9B008D58C7 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		2327EFEC2B2E9CDE008D58C7 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		2327EFEE2B2FF8B0008D58C7 /* ApplicationListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationListFilter.swift; sourceTree = "<group>"; };
+		2342410A2B34A006003479CE /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		234BD35B2B2829B600FE1F3B /* My Jobney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Jobney.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234BD35E2B2829B600FE1F3B /* My_JobneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JobneyApp.swift; sourceTree = "<group>"; };
+		234BD3642B2829B700FE1F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		234BD3662B2829B700FE1F3B /* My_Jobney.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = My_Jobney.entitlements; sourceTree = "<group>"; };
+		234BD3682B2829B700FE1F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		234BD36E2B2829B700FE1F3B /* My JobneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My JobneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234BD3782B2829B700FE1F3B /* My JobneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My JobneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234BD37C2B2829B700FE1F3B /* My_JobneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JobneyUITests.swift; sourceTree = "<group>"; };
+		234BD37E2B2829B700FE1F3B /* My_JobneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JobneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		234BD38C2B2829DE00FE1F3B /* JobApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplication.swift; sourceTree = "<group>"; };
+		234BD38E2B2829E900FE1F3B /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		234BD3902B282A7100FE1F3B /* JobApplicationStatusRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationStatusRecord.swift; sourceTree = "<group>"; };
+		234BD3922B282B4900FE1F3B /* SalaryPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryPeriod.swift; sourceTree = "<group>"; };
+		235705062B52470F00F3EE3D /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		235705092B53071400F3EE3D /* EducationEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEditView.swift; sourceTree = "<group>"; };
+		2357050C2B53A62F00F3EE3D /* EducationEditViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEditViewVM.swift; sourceTree = "<group>"; };
+		2357050E2B53A7C200F3EE3D /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		235705102B53A8DA00F3EE3D /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		235705132B53AA5500F3EE3D /* ExperienceEditViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceEditViewVM.swift; sourceTree = "<group>"; };
+		235705142B53AA5500F3EE3D /* ExperienceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceEditView.swift; sourceTree = "<group>"; };
+		235705152B53AC7F00F3EE3D /* Copyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copyable.swift; sourceTree = "<group>"; };
+		235705192B54A88A00F3EE3D /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		23711B6F2B40ACE200991E68 /* FormLabeledContentStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormLabeledContentStyle.swift; sourceTree = "<group>"; };
+		23711B752B40D38E00991E68 /* BasicInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationView.swift; sourceTree = "<group>"; };
+		23711B792B40D43600991E68 /* BookkeepingInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookkeepingInformationView.swift; sourceTree = "<group>"; };
+		23711B7F2B40DF3800991E68 /* AutoCompleterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleterView.swift; sourceTree = "<group>"; };
+		23711B8A2B40FFED00991E68 /* BasicInformationViewVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInformationViewVM.swift; sourceTree = "<group>"; };
+		23711B8F2B4142CC00991E68 /* Resume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		23711B952B41437000991E68 /* JobApplicationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationStatus.swift; sourceTree = "<group>"; };
+		23711B972B4143CC00991E68 /* JobDocumentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDocumentType.swift; sourceTree = "<group>"; };
+		23711B9B2B449DAB00991E68 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		23711B9D2B44A2EE00991E68 /* Platforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platforms.swift; sourceTree = "<group>"; };
+		23711BA12B44D22400991E68 /* AttachedDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachedDocumentsView.swift; sourceTree = "<group>"; };
+		23711BA42B44E79100991E68 /* AttachedDocumentsViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachedDocumentsViewVM.swift; sourceTree = "<group>"; };
+		23711BA62B44F2F800991E68 /* SalaryInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryInformationView.swift; sourceTree = "<group>"; };
+		23711BA92B44F82000991E68 /* BasicInformationViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationViewVM.swift; sourceTree = "<group>"; };
+		23711BB52B4511F700991E68 /* BasicInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationView.swift; sourceTree = "<group>"; };
+		23711BB82B45315B00991E68 /* TestBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBinding.swift; sourceTree = "<group>"; };
+		23711BBA2B45354800991E68 /* TestableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableView.swift; sourceTree = "<group>"; };
+		23711BC02B463AB500991E68 /* DocumentManagementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManagementService.swift; sourceTree = "<group>"; };
+		23711BC42B47564C00991E68 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		23711BC72B476B3300991E68 /* FileDocumentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDocumentService.swift; sourceTree = "<group>"; };
+		23711BCB2B49025E00991E68 /* ResumeFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeFormView.swift; sourceTree = "<group>"; };
+		23711BCD2B49026A00991E68 /* ResumeFormViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeFormViewVM.swift; sourceTree = "<group>"; };
+		23711BCF2B49086200991E68 /* ResumeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeListView.swift; sourceTree = "<group>"; };
+		23711BD12B49086800991E68 /* ResumeListViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeListViewVM.swift; sourceTree = "<group>"; };
+		23711BD32B490A3000991E68 /* ResumeArbitrarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeArbitrarySection.swift; sourceTree = "<group>"; };
+		23711BD52B490C1E00991E68 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		23711BD72B491FB800991E68 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		2382B5F22B3BDED8001394B2 /* DefaultAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAlertManager.swift; sourceTree = "<group>"; };
+		2382B5FB2B3CB6BB001394B2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		2382B5FF2B3E00B3001394B2 /* AlertDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDSL.swift; sourceTree = "<group>"; };
+		239CDC3A2B3AAEEF00355547 /* ApplicationListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationListRowView.swift; sourceTree = "<group>"; };
+		239CDC412B3B621500355547 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		23A1ABF42B310E5E00A8BA41 /* JobType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobType.swift; sourceTree = "<group>"; };
+		23A1ABF82B314EE500A8BA41 /* ExperienceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRecord.swift; sourceTree = "<group>"; };
+		23A1ABFC2B314EF300A8BA41 /* EducationRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationRecord.swift; sourceTree = "<group>"; };
+		23A1ABFE2B314FC000A8BA41 /* DiplomaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiplomaType.swift; sourceTree = "<group>"; };
+		23A1AC012B3150C100A8BA41 /* ApplicationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFormView.swift; sourceTree = "<group>"; };
+		23A1AC052B3150D200A8BA41 /* ApplicationFormViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFormViewVM.swift; sourceTree = "<group>"; };
+		23A1AC072B32ABF800A8BA41 /* JobStatusTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStatusTagView.swift; sourceTree = "<group>"; };
+		23A1AC092B32ADAA00A8BA41 /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
+		23B0E8D52B3F9C95002EC501 /* MyJobneyCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobneyCommands.swift; sourceTree = "<group>"; };
+		23B0E8D72B3FAEF0002EC501 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		23B0E8D92B3FB989002EC501 /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		23B0E8DC2B3FBF35002EC501 /* TextFieldClearButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButtonModifier.swift; sourceTree = "<group>"; };
+		23D5B9B52B340419003349B7 /* ExecutionEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionEnvironment.swift; sourceTree = "<group>"; };
+		23F88E4C2B350941002A51D1 /* SwiftDataStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStorageService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234BD3582B2829B600FE1F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2382B5F92B3C9075001394B2 /* Factory in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD36B2B2829B700FE1F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23711BB22B4511A300991E68 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD3752B2829B700FE1F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2327EFD32B2A849E008D58C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2327EFEC2B2E9CDE008D58C7 /* Date+Extensions.swift */,
+				23B0E8D92B3FB989002EC501 /* Collection+Extensions.swift */,
+				23711B9B2B449DAB00991E68 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2327EFD42B2A893E008D58C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23711BCA2B49024500991E68 /* ResumeFormView */,
+				23711BC92B49023200991E68 /* ResumeListView */,
+				23A1AC002B3150B400A8BA41 /* ApplicationFormView */,
+				2327EFE22B2D04BC008D58C7 /* ApplicationListView */,
+				2327EFD52B2A894C008D58C7 /* MainView */,
+				23A1AC072B32ABF800A8BA41 /* JobStatusTagView.swift */,
+				23B0E8D72B3FAEF0002EC501 /* TagView.swift */,
+				23A1AC092B32ADAA00A8BA41 /* GlobalColors.swift */,
+				23711B7F2B40DF3800991E68 /* AutoCompleterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2327EFD52B2A894C008D58C7 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2327EFD62B2A895E008D58C7 /* MainView.swift */,
+				2327EFE02B2BD7D9008D58C7 /* SidebarMenu.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		2327EFE22B2D04BC008D58C7 /* ApplicationListView */ = {
+			isa = PBXGroup;
+			children = (
+				2327EFE72B2D04E3008D58C7 /* ApplicationListView.swift */,
+				2327EFE52B2D04D3008D58C7 /* ApplicationListVM.swift */,
+				239CDC3A2B3AAEEF00355547 /* ApplicationListRowView.swift */,
+				2327EFEE2B2FF8B0008D58C7 /* ApplicationListFilter.swift */,
+			);
+			path = ApplicationListView;
+			sourceTree = "<group>";
+		};
+		2327EFE92B2E9A82008D58C7 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				2327EFEA2B2E9A9B008D58C7 /* Formatters.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		234BD3522B2829B600FE1F3B = {
+			isa = PBXGroup;
+			children = (
+				234BD35D2B2829B600FE1F3B /* My Jobney */,
+				234BD3712B2829B700FE1F3B /* My JobneyTests */,
+				234BD37B2B2829B700FE1F3B /* My JobneyUITests */,
+				234BD35C2B2829B600FE1F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234BD35C2B2829B600FE1F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234BD35B2B2829B600FE1F3B /* My Jobney.app */,
+				234BD36E2B2829B700FE1F3B /* My JobneyTests.xctest */,
+				234BD3782B2829B700FE1F3B /* My JobneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234BD35D2B2829B600FE1F3B /* My Jobney */ = {
+			isa = PBXGroup;
+			children = (
+				23F88E482B35089D002A51D1 /* Services */,
+				2327EFE92B2E9A82008D58C7 /* Formatters */,
+				234BD38B2B2829C400FE1F3B /* Data */,
+				23B0E8DB2B3FBF0C002EC501 /* ViewModifiers */,
+				23711B712B40AE6F00991E68 /* ViewStyles */,
+				2327EFD42B2A893E008D58C7 /* Views */,
+				2327EFD32B2A849E008D58C7 /* Extensions */,
+				23F88E4E2B360488002A51D1 /* Utils */,
+				234BD35E2B2829B600FE1F3B /* My_JobneyApp.swift */,
+				23B0E8D52B3F9C95002EC501 /* MyJobneyCommands.swift */,
+				2342410A2B34A006003479CE /* Dependencies.swift */,
+				23D5B9B52B340419003349B7 /* ExecutionEnvironment.swift */,
+				234BD3642B2829B700FE1F3B /* Assets.xcassets */,
+				234BD3662B2829B700FE1F3B /* My_Jobney.entitlements */,
+				234BD3672B2829B700FE1F3B /* Preview Content */,
+			);
+			path = "My Jobney";
+			sourceTree = "<group>";
+		};
+		234BD3672B2829B700FE1F3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				234BD3682B2829B700FE1F3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		234BD3712B2829B700FE1F3B /* My JobneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				23711BB32B4511BF00991E68 /* Views */,
+				23711BB72B45314900991E68 /* Utils */,
+			);
+			path = "My JobneyTests";
+			sourceTree = "<group>";
+		};
+		234BD37B2B2829B700FE1F3B /* My JobneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				234BD37C2B2829B700FE1F3B /* My_JobneyUITests.swift */,
+				234BD37E2B2829B700FE1F3B /* My_JobneyUITestsLaunchTests.swift */,
+			);
+			path = "My JobneyUITests";
+			sourceTree = "<group>";
+		};
+		234BD38B2B2829C400FE1F3B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				234BD38C2B2829DE00FE1F3B /* JobApplication.swift */,
+				2327EFCC2B295BD5008D58C7 /* FiledDocument.swift */,
+				234BD38E2B2829E900FE1F3B /* Company.swift */,
+				234BD3902B282A7100FE1F3B /* JobApplicationStatusRecord.swift */,
+				23711B8F2B4142CC00991E68 /* Resume.swift */,
+				23A1ABFC2B314EF300A8BA41 /* EducationRecord.swift */,
+				23A1ABF82B314EE500A8BA41 /* ExperienceRecord.swift */,
+				23711BD52B490C1E00991E68 /* Skill.swift */,
+				23711BD32B490A3000991E68 /* ResumeArbitrarySection.swift */,
+				23A1ABFE2B314FC000A8BA41 /* DiplomaType.swift */,
+				234BD3922B282B4900FE1F3B /* SalaryPeriod.swift */,
+				23A1ABF42B310E5E00A8BA41 /* JobType.swift */,
+				23711B952B41437000991E68 /* JobApplicationStatus.swift */,
+				23711B972B4143CC00991E68 /* JobDocumentType.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		235705042B52467700F3EE3D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				235705122B53AA4000F3EE3D /* ExperienceEditView */,
+				2357050B2B53A62100F3EE3D /* EducationEditView */,
+				235705062B52470F00F3EE3D /* EducationView.swift */,
+				235705102B53A8DA00F3EE3D /* ExperienceView.swift */,
+				235705192B54A88A00F3EE3D /* SkillsView.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		2357050B2B53A62100F3EE3D /* EducationEditView */ = {
+			isa = PBXGroup;
+			children = (
+				235705092B53071400F3EE3D /* EducationEditView.swift */,
+				2357050C2B53A62F00F3EE3D /* EducationEditViewVM.swift */,
+			);
+			path = EducationEditView;
+			sourceTree = "<group>";
+		};
+		235705122B53AA4000F3EE3D /* ExperienceEditView */ = {
+			isa = PBXGroup;
+			children = (
+				235705142B53AA5500F3EE3D /* ExperienceEditView.swift */,
+				235705132B53AA5500F3EE3D /* ExperienceEditViewVM.swift */,
+			);
+			path = ExperienceEditView;
+			sourceTree = "<group>";
+		};
+		23711B712B40AE6F00991E68 /* ViewStyles */ = {
+			isa = PBXGroup;
+			children = (
+				23711B6F2B40ACE200991E68 /* FormLabeledContentStyle.swift */,
+			);
+			path = ViewStyles;
+			sourceTree = "<group>";
+		};
+		23711B742B40D38500991E68 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				23711BA32B44E77900991E68 /* AttachedDocumentsView */,
+				23711B882B40FFD500991E68 /* BasicInformationView */,
+				23711BA62B44F2F800991E68 /* SalaryInformationView.swift */,
+				23711B792B40D43600991E68 /* BookkeepingInformationView.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		23711B882B40FFD500991E68 /* BasicInformationView */ = {
+			isa = PBXGroup;
+			children = (
+				23711B752B40D38E00991E68 /* BasicInformationView.swift */,
+				23711B8A2B40FFED00991E68 /* BasicInformationViewVM.swift */,
+			);
+			path = BasicInformationView;
+			sourceTree = "<group>";
+		};
+		23711BA32B44E77900991E68 /* AttachedDocumentsView */ = {
+			isa = PBXGroup;
+			children = (
+				23711BA12B44D22400991E68 /* AttachedDocumentsView.swift */,
+				23711BA42B44E79100991E68 /* AttachedDocumentsViewVM.swift */,
+			);
+			path = AttachedDocumentsView;
+			sourceTree = "<group>";
+		};
+		23711BAB2B44F82E00991E68 /* ApplicationFormView */ = {
+			isa = PBXGroup;
+			children = (
+				23711BB42B4511CF00991E68 /* VMs */,
+				23711BB52B4511F700991E68 /* BasicInformationView.swift */,
+			);
+			path = ApplicationFormView;
+			sourceTree = "<group>";
+		};
+		23711BB32B4511BF00991E68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23711BAB2B44F82E00991E68 /* ApplicationFormView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23711BB42B4511CF00991E68 /* VMs */ = {
+			isa = PBXGroup;
+			children = (
+				23711BA92B44F82000991E68 /* BasicInformationViewVM.swift */,
+			);
+			path = VMs;
+			sourceTree = "<group>";
+		};
+		23711BB72B45314900991E68 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				23711BB82B45315B00991E68 /* TestBinding.swift */,
+				23711BBA2B45354800991E68 /* TestableView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		23711BC62B476B2400991E68 /* DocumentManagementService */ = {
+			isa = PBXGroup;
+			children = (
+				23711BC02B463AB500991E68 /* DocumentManagementService.swift */,
+				23711BC72B476B3300991E68 /* FileDocumentService.swift */,
+			);
+			path = DocumentManagementService;
+			sourceTree = "<group>";
+		};
+		23711BC92B49023200991E68 /* ResumeListView */ = {
+			isa = PBXGroup;
+			children = (
+				23711BCF2B49086200991E68 /* ResumeListView.swift */,
+				23711BD12B49086800991E68 /* ResumeListViewVM.swift */,
+			);
+			path = ResumeListView;
+			sourceTree = "<group>";
+		};
+		23711BCA2B49024500991E68 /* ResumeFormView */ = {
+			isa = PBXGroup;
+			children = (
+				235705042B52467700F3EE3D /* Sections */,
+				23711BCB2B49025E00991E68 /* ResumeFormView.swift */,
+				23711BCD2B49026A00991E68 /* ResumeFormViewVM.swift */,
+			);
+			path = ResumeFormView;
+			sourceTree = "<group>";
+		};
+		2382B5F12B3BDB51001394B2 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				239CDC412B3B621500355547 /* AlertManager.swift */,
+				2382B5FF2B3E00B3001394B2 /* AlertDSL.swift */,
+				2382B5F22B3BDED8001394B2 /* DefaultAlertManager.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		23A1AC002B3150B400A8BA41 /* ApplicationFormView */ = {
+			isa = PBXGroup;
+			children = (
+				23711B742B40D38500991E68 /* Sections */,
+				23A1AC012B3150C100A8BA41 /* ApplicationFormView.swift */,
+				23A1AC052B3150D200A8BA41 /* ApplicationFormViewVM.swift */,
+			);
+			path = ApplicationFormView;
+			sourceTree = "<group>";
+		};
+		23B0E8DB2B3FBF0C002EC501 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E8DC2B3FBF35002EC501 /* TextFieldClearButtonModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		23F88E482B35089D002A51D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2382B5F12B3BDB51001394B2 /* Alert */,
+				23F88E492B3508A8002A51D1 /* Storage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		23F88E492B3508A8002A51D1 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				23711BC42B47564C00991E68 /* StorageService.swift */,
+				23F88E4C2B350941002A51D1 /* SwiftDataStorageService.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		23F88E4E2B360488002A51D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				23711BC62B476B2400991E68 /* DocumentManagementService */,
+				2382B5FB2B3CB6BB001394B2 /* PreviewData.swift */,
+				23711B9D2B44A2EE00991E68 /* Platforms.swift */,
+				23711BD72B491FB800991E68 /* Localized.swift */,
+				2357050E2B53A7C200F3EE3D /* Selection.swift */,
+				235705152B53AC7F00F3EE3D /* Copyable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234BD35A2B2829B600FE1F3B /* My Jobney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234BD3822B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My Jobney" */;
+			buildPhases = (
+				234BD3572B2829B600FE1F3B /* Sources */,
+				234BD3582B2829B600FE1F3B /* Frameworks */,
+				234BD3592B2829B600FE1F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Jobney";
+			packageProductDependencies = (
+				2382B5F82B3C9075001394B2 /* Factory */,
+			);
+			productName = "My Jobney";
+			productReference = 234BD35B2B2829B600FE1F3B /* My Jobney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		234BD36D2B2829B700FE1F3B /* My JobneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234BD3852B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My JobneyTests" */;
+			buildPhases = (
+				234BD36A2B2829B700FE1F3B /* Sources */,
+				234BD36B2B2829B700FE1F3B /* Frameworks */,
+				234BD36C2B2829B700FE1F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234BD3702B2829B700FE1F3B /* PBXTargetDependency */,
+			);
+			name = "My JobneyTests";
+			packageProductDependencies = (
+				23711BB12B4511A300991E68 /* ViewInspector */,
+			);
+			productName = "My JobneyTests";
+			productReference = 234BD36E2B2829B700FE1F3B /* My JobneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		234BD3772B2829B700FE1F3B /* My JobneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234BD3882B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My JobneyUITests" */;
+			buildPhases = (
+				234BD3742B2829B700FE1F3B /* Sources */,
+				234BD3752B2829B700FE1F3B /* Frameworks */,
+				234BD3762B2829B700FE1F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234BD37A2B2829B700FE1F3B /* PBXTargetDependency */,
+			);
+			name = "My JobneyUITests";
+			productName = "My JobneyUITests";
+			productReference = 234BD3782B2829B700FE1F3B /* My JobneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234BD3532B2829B600FE1F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					234BD35A2B2829B600FE1F3B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					234BD36D2B2829B700FE1F3B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 234BD35A2B2829B600FE1F3B;
+					};
+					234BD3772B2829B700FE1F3B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 234BD35A2B2829B600FE1F3B;
+					};
+				};
+			};
+			buildConfigurationList = 234BD3562B2829B600FE1F3B /* Build configuration list for PBXProject "My Jobney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234BD3522B2829B600FE1F3B;
+			packageReferences = (
+				2382B5F72B3C9075001394B2 /* XCRemoteSwiftPackageReference "Factory" */,
+				23711BB02B4511A300991E68 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
+			productRefGroup = 234BD35C2B2829B600FE1F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234BD35A2B2829B600FE1F3B /* My Jobney */,
+				234BD36D2B2829B700FE1F3B /* My JobneyTests */,
+				234BD3772B2829B700FE1F3B /* My JobneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234BD3592B2829B600FE1F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234BD3692B2829B700FE1F3B /* Preview Assets.xcassets in Resources */,
+				234BD3652B2829B700FE1F3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD36C2B2829B700FE1F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD3762B2829B700FE1F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234BD3572B2829B600FE1F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234BD38D2B2829DE00FE1F3B /* JobApplication.swift in Sources */,
+				235705182B53B75900F3EE3D /* ExperienceEditViewVM.swift in Sources */,
+				23711B962B41437000991E68 /* JobApplicationStatus.swift in Sources */,
+				23711B9E2B44A2EE00991E68 /* Platforms.swift in Sources */,
+				23711BA72B44F2F800991E68 /* SalaryInformationView.swift in Sources */,
+				23A1ABF52B310E5E00A8BA41 /* JobType.swift in Sources */,
+				23711B702B40ACE200991E68 /* FormLabeledContentStyle.swift in Sources */,
+				23711B902B4142CC00991E68 /* Resume.swift in Sources */,
+				235705172B53B75600F3EE3D /* ExperienceEditView.swift in Sources */,
+				2327EFEB2B2E9A9B008D58C7 /* Formatters.swift in Sources */,
+				23711BD22B49086800991E68 /* ResumeListViewVM.swift in Sources */,
+				23711BCE2B49026A00991E68 /* ResumeFormViewVM.swift in Sources */,
+				23711BC82B476B3300991E68 /* FileDocumentService.swift in Sources */,
+				23711BA52B44E79100991E68 /* AttachedDocumentsViewVM.swift in Sources */,
+				23711BD02B49086200991E68 /* ResumeListView.swift in Sources */,
+				23711B802B40DF3800991E68 /* AutoCompleterView.swift in Sources */,
+				23A1AC0A2B32ADAA00A8BA41 /* GlobalColors.swift in Sources */,
+				23711B982B4143CC00991E68 /* JobDocumentType.swift in Sources */,
+				235705162B53AC7F00F3EE3D /* Copyable.swift in Sources */,
+				2327EFCD2B295BD5008D58C7 /* FiledDocument.swift in Sources */,
+				2327EFE82B2D04E3008D58C7 /* ApplicationListView.swift in Sources */,
+				23A1AC022B3150C100A8BA41 /* ApplicationFormView.swift in Sources */,
+				239CDC3B2B3AAEEF00355547 /* ApplicationListRowView.swift in Sources */,
+				23D5B9B62B340419003349B7 /* ExecutionEnvironment.swift in Sources */,
+				23A1AC062B3150D200A8BA41 /* ApplicationFormViewVM.swift in Sources */,
+				2382B5F32B3BDED8001394B2 /* DefaultAlertManager.swift in Sources */,
+				2327EFE12B2BD7D9008D58C7 /* SidebarMenu.swift in Sources */,
+				2382B5FC2B3CB6BB001394B2 /* PreviewData.swift in Sources */,
+				23711BA22B44D22400991E68 /* AttachedDocumentsView.swift in Sources */,
+				23B0E8DD2B3FBF35002EC501 /* TextFieldClearButtonModifier.swift in Sources */,
+				23B0E8DA2B3FB989002EC501 /* Collection+Extensions.swift in Sources */,
+				23711B9C2B449DAB00991E68 /* View+Extensions.swift in Sources */,
+				23F88E4D2B350941002A51D1 /* SwiftDataStorageService.swift in Sources */,
+				2382B6002B3E00B3001394B2 /* AlertDSL.swift in Sources */,
+				2327EFD72B2A895E008D58C7 /* MainView.swift in Sources */,
+				239CDC422B3B621500355547 /* AlertManager.swift in Sources */,
+				23A1AC082B32ABF900A8BA41 /* JobStatusTagView.swift in Sources */,
+				23A1ABF92B314EE500A8BA41 /* ExperienceRecord.swift in Sources */,
+				2327EFED2B2E9CDE008D58C7 /* Date+Extensions.swift in Sources */,
+				2357050F2B53A7C200F3EE3D /* Selection.swift in Sources */,
+				23A1ABFF2B314FC000A8BA41 /* DiplomaType.swift in Sources */,
+				2357051A2B54A88A00F3EE3D /* SkillsView.swift in Sources */,
+				23711BD82B491FB800991E68 /* Localized.swift in Sources */,
+				23711BC52B47564C00991E68 /* StorageService.swift in Sources */,
+				234BD38F2B2829EA00FE1F3B /* Company.swift in Sources */,
+				23B0E8D62B3F9C95002EC501 /* MyJobneyCommands.swift in Sources */,
+				23711BD42B490A3000991E68 /* ResumeArbitrarySection.swift in Sources */,
+				23711B762B40D38E00991E68 /* BasicInformationView.swift in Sources */,
+				23A1ABFD2B314EF300A8BA41 /* EducationRecord.swift in Sources */,
+				23B0E8D82B3FAEF0002EC501 /* TagView.swift in Sources */,
+				23711B8C2B40FFED00991E68 /* BasicInformationViewVM.swift in Sources */,
+				2327EFE62B2D04D3008D58C7 /* ApplicationListVM.swift in Sources */,
+				2327EFEF2B2FF8B0008D58C7 /* ApplicationListFilter.swift in Sources */,
+				2357050D2B53A62F00F3EE3D /* EducationEditViewVM.swift in Sources */,
+				234BD3932B282B4900FE1F3B /* SalaryPeriod.swift in Sources */,
+				23711BD62B490C1E00991E68 /* Skill.swift in Sources */,
+				234BD3912B282A7100FE1F3B /* JobApplicationStatusRecord.swift in Sources */,
+				235705072B52470F00F3EE3D /* EducationView.swift in Sources */,
+				23711B7A2B40D43600991E68 /* BookkeepingInformationView.swift in Sources */,
+				23711BC12B463AB500991E68 /* DocumentManagementService.swift in Sources */,
+				23711BCC2B49025E00991E68 /* ResumeFormView.swift in Sources */,
+				2357050A2B53071400F3EE3D /* EducationEditView.swift in Sources */,
+				235705112B53A8DA00F3EE3D /* ExperienceView.swift in Sources */,
+				234BD35F2B2829B600FE1F3B /* My_JobneyApp.swift in Sources */,
+				2342410B2B34A006003479CE /* Dependencies.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD36A2B2829B700FE1F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23711BBB2B45354800991E68 /* TestableView.swift in Sources */,
+				23711BB62B4511F700991E68 /* BasicInformationView.swift in Sources */,
+				23711BAA2B44F82000991E68 /* BasicInformationViewVM.swift in Sources */,
+				23711BB92B45315B00991E68 /* TestBinding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234BD3742B2829B700FE1F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234BD37D2B2829B700FE1F3B /* My_JobneyUITests.swift in Sources */,
+				234BD37F2B2829B700FE1F3B /* My_JobneyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		234BD3702B2829B700FE1F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234BD35A2B2829B600FE1F3B /* My Jobney */;
+			targetProxy = 234BD36F2B2829B700FE1F3B /* PBXContainerItemProxy */;
+		};
+		234BD37A2B2829B700FE1F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234BD35A2B2829B600FE1F3B /* My Jobney */;
+			targetProxy = 234BD3792B2829B700FE1F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		234BD3802B2829B700FE1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		234BD3812B2829B700FE1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		234BD3832B2829B700FE1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "My Jobney/My_Jobney.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"My Jobney/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-Jobney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234BD3842B2829B700FE1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "My Jobney/My_Jobney.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"My Jobney/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-Jobney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		234BD3862B2829B700FE1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-JobneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Jobney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Jobney";
+			};
+			name = Debug;
+		};
+		234BD3872B2829B700FE1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-JobneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Jobney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Jobney";
+			};
+			name = Release;
+		};
+		234BD3892B2829B700FE1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-JobneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Jobney";
+			};
+			name = Debug;
+		};
+		234BD38A2B2829B700FE1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.me.My-JobneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Jobney";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234BD3562B2829B600FE1F3B /* Build configuration list for PBXProject "My Jobney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234BD3802B2829B700FE1F3B /* Debug */,
+				234BD3812B2829B700FE1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234BD3822B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My Jobney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234BD3832B2829B700FE1F3B /* Debug */,
+				234BD3842B2829B700FE1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234BD3852B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My JobneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234BD3862B2829B700FE1F3B /* Debug */,
+				234BD3872B2829B700FE1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234BD3882B2829B700FE1F3B /* Build configuration list for PBXNativeTarget "My JobneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234BD3892B2829B700FE1F3B /* Debug */,
+				234BD38A2B2829B700FE1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23711BB02B4511A300991E68 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+		2382B5F72B3C9075001394B2 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23711BB12B4511A300991E68 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23711BB02B4511A300991E68 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+		2382B5F82B3C9075001394B2 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2382B5F72B3C9075001394B2 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 234BD3532B2829B600FE1F3B /* Project object */;
+}

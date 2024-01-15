@@ -1,0 +1,19 @@
+.DS_Store
+.LSOverride
+._*
+
+## User settings
+xcuserdata/
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+.swiftpm
+
+.build/
+
+## SPM
+Packages
+xcuserdata
